@@ -327,7 +327,7 @@ background: linear-gradient(to right, #2948ff, #396afc); /* W3C, IE 10+/ Edge, F
     width: 50%;
     text-align: center;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
     padding: 0.5em 0em;
     margin: 4% 25% 0%;
@@ -533,12 +533,11 @@ background: linear-gradient(to right, #2948ff, #396afc); /* W3C, IE 10+/ Edge, F
 }
 .card{
     float: left;
-    width: 45%;
-    margin: 2% 2.5%;
+    width: 100%;
+    margin: 2% 0%;
     border-radius: 3px;
     background-color: #fff;
     font-size: 1.5em;
-    box-shadow: 0em 0.5em 1em #00000010;
 }
 .card:hover{
     transition: all 150ms;
@@ -547,8 +546,8 @@ background: linear-gradient(to right, #2948ff, #396afc); /* W3C, IE 10+/ Edge, F
 }
 .course-img{
     float: left;
-    width: 30%;
-    padding: 30% 35%;
+    width: 100%;
+    padding: 0%;
     background-color: #f00;
     border-radius: 3px 3px 0px 0px;
     
@@ -690,7 +689,7 @@ background: linear-gradient(to right, #2948ff, #396afc); /* W3C, IE 10+/ Edge, F
     width: 50%;
     text-align: center;
     text-decoration: none;
-    font-size: 2em;
+    font-size: 1.3em;
     font-weight: 400;
     padding: 0.5em 0em;
     margin: 4% 25% 0%;
@@ -711,7 +710,15 @@ background: linear-gradient(to right, #2948ff, #396afc); /* W3C, IE 10+/ Edge, F
     text-decoration: none;
     color: #fff;
 }
-
+.ctabutton{
+    background-color: #396afc;
+    border-radius: 2px;
+    margin: 4% 25% 0%;
+    width: 50%;
+    padding: 1em 0em;
+    color: #1a1919;
+    font-size: 2em;
+}
 
 /*  footer css starts here */
 .custom-footer{
@@ -733,6 +740,13 @@ background: linear-gradient(to right, #2948ff, #396afc); /* W3C, IE 10+/ Edge, F
 .footer-content{
     float: left;
     width: 100%;
+}
+.footer-content > a, p{
+    float: left;
+    width: 100%;
+    margin: 1em 0%;
+    font-size:2em;
+    font-weight: 500;
 }
 .footer-content > p{
     float: left;
