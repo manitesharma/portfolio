@@ -457,7 +457,7 @@ body{
 }
 .edu > p{
     margin: 0.5em 0em;
-    font-size: 2em;
+    font-size: 1.2em;
 }
 .edu > p:nth-child(1){
     color: #396afc;
@@ -467,7 +467,7 @@ body{
 }
 .edu > p:nth-child(3){
     color: #0005;
-    font-size: 1.8em;
+    font-size: 0.95em;
 }
 
 /* project css*/
