@@ -61,13 +61,13 @@ body{
 }
 .social{
     float: left;
-    width: 20%;
-    margin: 10% 40% 1%;
+    width: 30%;
+    margin: 10% 35% 1%;
 }
 .socail-li{
     float: left;
-    width: 6%;
-    padding: 5%;
+    width: 4%;
+    padding: 4%;
     background-color: #f2f2f2;
     border-radius: 30px;
     margin: 0px 4%;
