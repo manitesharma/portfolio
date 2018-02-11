@@ -198,6 +198,7 @@ body{
 
 .project-img-showcase{
     width: 100%;
+    margin: 2% 0%;
     float: left;
 }
 .disc-text{
@@ -275,17 +276,16 @@ body{
 }
 .more{
     float: left;
-    width: 50%;
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: 400;
-    padding: 0.5em 0em;
-    margin: 1em 0%;
-    color: #396afc;
+    margin: 2% 0%;
+    text-align: center;
+    background-color: #d9def0;
+    color: #000;
+    padding: 1.5em 3em;
+    width: auto;
 }
-.more:hover .fa{
-    transition: all 250ms;
-    margin-left: 1em;
+.more:hover{
+    transition: all 150ms;
+    background-color: #b3b5e3;
 }
 /*  footer css starts here */
 .custom-footer{
@@ -563,19 +563,16 @@ body{
 }
 .more{
     float: left;
-    text-align: left;
-    width: 100%;
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: 400;
-    padding: 0.5em 0em;
-    margin: 1em 0%;
-    color: #396afc;
-    font-size: 1.8em;
+    margin-left: 5%;
+    text-align: center;
+    background-color: #2552d8;
+    color: #fff;
+    padding: 1.5em 3em;
+    width: auto;
 }
-.more:hover .fa{
-    transition: all 250ms;
-    margin-left: 1em;
+.more:hover{
+    transition: all 150ms;
+    background-color: #1f43ae;
 }
 /*  footer css starts here */
 .custom-footer{
@@ -606,4 +603,86 @@ body{
     position: static;
 }
     
+}
+
+
+
+
+
+
+
+
+
+/* css for project pages goes here */
+.contain-pro{
+    float: left;
+    width: 66%;
+    margin: 0% 15%;
+    padding: 2%;
+}
+.headpro{
+    float: left;
+    width: 100%;
+    padding: 1em 0em;
+    background: #393e46;
+}
+.backtohome{
+    float: left;
+    padding: 1em 3%;
+    text-decoration: none;
+    color: #fff;
+}
+.backtohome:hover{
+    transition: all 150ms;
+    transform: translateX(-1em);
+}
+.text-heading{
+    float: left;
+    width: 100%;
+    color: #000;
+    font-weight: 600;
+    font-size: 1.5em;
+}
+.text-sub-heading{
+    float: left;
+    width: 96%;
+    color: #2552d8;
+    font-weight: 500;
+    font-size: 1em;
+    margin: 0em 2%;
+    margin-top: 2em;
+}
+.text-body{
+    float: left;
+    width: 96%;
+    margin: 1em 2%;
+    font-size: 0.9em;
+    line-height: 27px;
+}
+.sublist{
+    list-style: none;
+    font-size: 0.9em;
+    width: 100%;
+}
+.sublist > li{
+    float: left;
+    width: 100%;
+    line-height: 1.8em;
+}
+.project-more{
+    margin-left: 35%;
+    text-align: center;
+    background-color: #2552d8;
+    color: #fff;
+    padding: 1.5em 3em;
+    width: auto;
+}
+.project-more:hover{
+    transition: all 150ms;
+    background-color: #1f43ae;
+}
+.thankyou-img{
+    float: left;
+    width: 20%;
+    margin: 2% 40%;
 }
