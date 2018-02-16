@@ -13,7 +13,7 @@ body{
   outline: 0px dotted #212121;
   outline: 0px auto -webkit-focus-ring-color;
 }
-/* introduction sectio css starts here */
+/* introduction section css starts here */
 .allnav{
     display: block;
     float: left;
@@ -83,18 +83,17 @@ body{
 }
 .nav{
     float: left;
-    width: 40%;
-    margin: 2% 30%;
+    width: 50%;
+    margin: 2% 25%;
 }
 .nav-bars{
     float: left;
     color: #f2f2f2;
-    padding: 0.5em 0em;
+    padding: 0.9em 0em;
     text-align: center;
-    width: 24%;
-    border: 1px solid #f2f2f2;
+    width: 25%;
     margin: 0%;
-    font-weight: 400;
+    font-weight: 500;
     background-color: #f2f2f2;
     color: #393e36;
     opacity: 0.2;
@@ -317,6 +316,83 @@ body{
     text-decoration: none;
 }
 
+
+
+
+/* css for project pages goes here */
+.contain-pro{
+    float: left;
+    width: 66%;
+    margin: 0% 15%;
+    padding: 2%;
+}
+.headpro{
+    float: left;
+    width: 100%;
+    padding: 1em 0em;
+    background: #393e46;
+}
+.backtohome{
+    float: left;
+    padding: 1em 3%;
+    text-decoration: none;
+    color: #fff;
+}
+.backtohome:hover{
+    transition: all 150ms;
+    transform: translateX(-1em);
+}
+.text-heading{
+    float: left;
+    width: 100%;
+    color: #000;
+    font-weight: 600;
+    font-size: 1.5em;
+}
+.text-sub-heading{
+    float: left;
+    width: 96%;
+    color: #2552d8;
+    font-weight: 500;
+    font-size: 1em;
+    margin: 0em 2%;
+    margin-top: 2em;
+}
+.text-body{
+    float: left;
+    width: 96%;
+    margin: 1em 2%;
+    font-size: 0.9em;
+    line-height: 27px;
+}
+.sublist{
+    list-style: none;
+    font-size: 0.9em;
+    width: 100%;
+}
+.sublist > li{
+    float: left;
+    width: 100%;
+    line-height: 1.8em;
+}
+.project-more{
+    margin-left: 35%;
+    text-align: center;
+    background-color: #2552d8;
+    color: #fff;
+    padding: 1.5em 3em;
+    width: auto;
+}
+.project-more:hover{
+    transition: all 150ms;
+    background-color: #1f43ae;
+}
+.thankyou-img{
+    float: left;
+    width: 20%;
+    margin: 2% 40%;
+}
+
 /* media query for desktop ends here */
 
 
@@ -358,15 +434,15 @@ body{
 }
 .social{
     float: left;
-    width: 60%;
-    margin: 40% 20% 1%;
+    width: 80%;
+    margin: 40% 10% 1%;
     position: absolute;
     bottom: 10%;
 }
 .socail-li{
     float: left;
-    width: 6%;
-    padding: 5%;
+    width: 4%;
+    padding: 4%;
     background-color: #f2f2f2;
     border-radius: 300px;
     margin: 0px 4%;
@@ -519,14 +595,14 @@ body{
 }
 .course-img{
     float: left;
-    width: 50%;
-    padding: 0%;
+    width: 90%;
+    margin: 0% 5%;
     border-radius:3px;
     
 }
 .project-discription{
     float: left;
-    width: 40%;
+    width: 90%;
     padding: 1% 5%;
 }
 .course-head{
@@ -535,14 +611,14 @@ body{
     text-align: left;
     margin:0em;
     padding: 0.5em 0em;
-    font-size: 2em;
+    font-size: 3em;
     font-weight: 400;
     
 }
 .course-disc{
     float: left;
     width: 100%;
-    font-size: 1.5em;
+    font-size: 2em;
     margin: 1em 0em;
     
 }
@@ -563,11 +639,11 @@ body{
 }
 .more{
     float: left;
-    margin-left: 5%;
+    margin-left: 0%;
     text-align: center;
-    background-color: #2552d8;
-    color: #fff;
-    padding: 1.5em 3em;
+    color: #2552d8;
+    padding: 0.5em 2em;
+    margin-right: 2em;
     width: auto;
 }
 .more:hover{
@@ -603,21 +679,15 @@ body{
     position: static;
 }
     
-}
-
-
-
-
-
-
-
-
-
-/* css for project pages goes here */
+    
+    
+    
+    
+    /* css for project pages goes here */
 .contain-pro{
     float: left;
-    width: 66%;
-    margin: 0% 15%;
+    width: 96%;
+    margin: 0% 2%;
     padding: 2%;
 }
 .headpro{
@@ -628,6 +698,7 @@ body{
 }
 .backtohome{
     float: left;
+    width: 100%;
     padding: 1em 3%;
     text-decoration: none;
     color: #fff;
@@ -640,15 +711,15 @@ body{
     float: left;
     width: 100%;
     color: #000;
-    font-weight: 600;
-    font-size: 1.5em;
+    font-weight: 500;
+    font-size: 3em;
 }
 .text-sub-heading{
     float: left;
     width: 96%;
     color: #2552d8;
     font-weight: 500;
-    font-size: 1em;
+    font-size: 1.5em;
     margin: 0em 2%;
     margin-top: 2em;
 }
@@ -656,7 +727,7 @@ body{
     float: left;
     width: 96%;
     margin: 1em 2%;
-    font-size: 0.9em;
+    font-size: 1.2em;
     line-height: 27px;
 }
 .sublist{
@@ -686,3 +757,9 @@ body{
     width: 20%;
     margin: 2% 40%;
 }
+
+    
+}
+
+
+/* media query for mobile ends here /*
