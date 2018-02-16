@@ -48,11 +48,12 @@ body{
     letter-spacing: 0.25em;
     margin: 5% 0em;
     text-transform:uppercase;
-    font-weight: 200;
+    font-weight: 800;
+    text-shadow: 0px 2px 5px #000;
 }
 .introduction-p{
     float: left;
-    font-weight: 300;
+    font-weight: 400;
     width: 100%;
     font-size: 20px;
     letter-spacing: 0.05em;
@@ -420,12 +421,9 @@ body{
     font-size: 100px;
     letter-spacing: 0.25em;
     margin: 5% 0em;
-    text-transform:uppercase;
-    font-weight: 200;
 }
 .introduction-p{
     float: left;
-    font-weight: 300;
     width: 100%;
     font-size: 2em;
     letter-spacing: 0.05em;
