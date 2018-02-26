@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1920 1080" style="enable-background:new 0 0 1920 1080;" xml:space="preserve">
+<style type="text/css">
+    
+	.st1{fill:none;stroke:#EA1CCD;stroke-width:2;stroke-miterlimit:10;animation-delay: 1s;}
+	.st2{fill:none;stroke:#F43DEB;stroke-width:2;stroke-miterlimit:10;animation-delay: 3s;}
+	.st3{fill:none;stroke:#7683FF;stroke-width:2;stroke-miterlimit:10;animation-delay: 2.5s;}
+	.st4{fill:none;stroke:#0DB7A2;stroke-width:2;stroke-miterlimit:10;animation-delay: 8s;}
+	.st5{fill:none;stroke:#CCCCCC;stroke-width:2;stroke-miterlimit:10;animation-delay: 4s;}
+	.st6{fill:none;stroke:#DBEF20;stroke-width:2;stroke-miterlimit:10;animation-delay: 2s;}
+	.st7{fill:none;stroke:#19DDA0;stroke-width:2;stroke-miterlimit:10;animation-delay: 1s;}
+	.st8{fill:none;stroke:#DBDB1D;stroke-width:2;stroke-miterlimit:10;animation-delay: 0s;}
+	.st9{fill:none;stroke:#2513D3;stroke-width:2;stroke-miterlimit:10;animation-delay: 9s;}
+	.st10{fill:none;stroke:#3EE815;stroke-width:2;stroke-miterlimit:10;animation-delay: 1s;}
+	.st11{fill:none;stroke:#F2AE14;stroke-width:2;stroke-miterlimit:10;animation-delay: 4s;}
+	.st12{fill:none;stroke:#0CBA0C;stroke-width:2;stroke-miterlimit:10;animation-delay: 3s;}
+	.st13{fill:none;stroke:#1FCE11;stroke-width:2;stroke-miterlimit:10;animation-delay: 7s;}
+	.st14{fill:none;stroke:#448E8A;stroke-width:2;stroke-miterlimit:10;animation-delay: 2s;}
+	.st15{fill:none;stroke:#CC1598;stroke-width:2;stroke-miterlimit:10;animation-delay: 6s;}
+	.st16{fill:none;stroke:#162DB5;stroke-width:2;stroke-miterlimit:10;animation-delay: 4s;}
+    .rotate{
+    animation-name: revolve;
+    opacity: 0;
+    transform: scale(0);
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 5s;
+    transform-origin: center;
+}
+@keyframes revolve{
+    0%{transform: scale(0.1) rotateZ(0deg) translateX(10px);opacity: 0;}
+    30%{transform: translateY(7px) translateX(-5px);}
+    50%{transform: translateY(8px) translateX(5px);}
+    70%{transform: translateY(0px) translateX(-8px);}
+    100%{transform: scale(0.2) rotateZ(180deg) translateY(-8px) translateX(2px); opacity: 0.7;}
+}
+</style>
+<g id="Layer_2">
+	<polygon class="st1 rotate" points="281.6,334 212.7,215.1 143.7,334 	"/>
+	<polygon class="st2 rotate" points="1462.2,787.2 1389.6,759.7 1401.8,836.4 	"/>
+	<polygon class="st3 rotate" points="1959,506.5 1766,433.5 1798.6,637.2 	"/>
+	<polygon class="st4 rotate" points="472,835.1 477.5,697.7 355.5,761.2 	"/>
+	<polygon class="st5 rotate" points="1551.7,453.2 1551.2,393.7 1499.8,423.7 	"/>
+	<rect x="151.6" y="433.5" class="st6 rotate" width="61" height="61"/>
+	
+		<rect x="506.5" y="188.4" transform="matrix(0.899 -0.438 0.438 0.899 -56.5089 281.1017)" class="st7 rotate" width="149.3" height="149.3"/>
+	
+		<rect x="1737.7" y="897.2" transform="matrix(0.899 -0.438 0.438 0.899 -259.4834 918.9941)" class="st8 rotate" width="249.6" height="249.6"/>
+	
+		<rect x="212.4" y="741.9" transform="matrix(0.9923 -0.124 0.124 0.9923 -93.9594 36.1525)" class="st9 rotate" width="62.2" height="62.2"/>
+	
+		<rect x="1589.6" y="491.3" transform="matrix(0.2538 -0.9672 0.9672 0.2538 694.3437 2031.8828)" class="st10 rotate" width="149.1" height="149.1"/>
+	
+		<rect x="890.2" y="983" transform="matrix(-0.7539 -0.657 0.657 -0.7539 942.2047 2367.7825)" class="st3 rotate" width="48.8" height="48.8"/>
+	<circle class="st11  rotate" cx="1186.6" cy="304.6" r="139.5"/>
+	<circle class="st12 rotate" cx="317" cy="515.9" r="53.6"/>
+	<circle class="st13 rotate" cx="1766" cy="200.9" r="62.2"/>
+	<circle class="st14 rotate" cx="84.8" cy="994.3" r="166.3"/>
+	<circle class="st15 rotate" cx="1743.7" cy="823.3" r="63.6"/>
+	<circle class="st16 rotate" cx="345.2" cy="215.1" r="31"/>
+</g>
+</svg>
