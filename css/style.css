@@ -187,14 +187,15 @@ body{
     word-spacing: 0.25em;
     margin: 0.2em 0em;
 }
-.edu:nth-child(2){
-    margin-bottom: 2em;
+.edu{
+    margin-bottom: 1.5em;
 }
 .edu > p{
     margin: 0.5em 0em;
 }
 .edu > p:nth-child(1){
     color: #396afc;
+    font-weight : 600;
 }
 .edu > p:nth-child(2){
     color: #5f5f5f;
