@@ -308,8 +308,9 @@ body{
 }
 .more{
     float: left;
-    width: 100%;
+    width: auto;
     margin: 0%;
+    margin-right: 2em;
     color: #45a0f1;
     padding: 1.5em 0em;
 }
