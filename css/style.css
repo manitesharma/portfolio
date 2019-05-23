@@ -253,8 +253,8 @@ body{
 }
 .card{
     float: left;
-    width: 100%;
-    margin: 5% 0%;
+    width: 45%;
+    margin: 5% 2.5%;
     border-radius: 3px;
     font-size: 0.9em;
 }
@@ -265,14 +265,14 @@ body{
 }
 .course-img{
     float: left;
-    width: 50%;
+    width: 100%;
     padding: 0%;
     border-radius: 3px 3px 0px 0px;
 
 }
 .project-discription{
     float: left;
-    width: 40%;
+    width: 90%;
     padding: 0% 5%;
 }
 .course-head{
