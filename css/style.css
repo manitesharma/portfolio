@@ -76,9 +76,13 @@ body{
     text-transform:uppercase;
     font-weight: 800;
     text-shadow: 0px 2px 5px #0000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .introduction-h1 img{
-    width : 1em;
+    margin-right: 0.2em;
+    width: 0.7em;
 }
 .introduction-p{
     float: left;
