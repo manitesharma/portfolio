@@ -15,6 +15,9 @@ body{
   outline: 0px dotted #212121;
   outline: 0px auto -webkit-focus-ring-color;
 }
+.hidesec{
+    display: none;
+}
 /* introduction section css starts here */
 .allnav{
     display: block;
