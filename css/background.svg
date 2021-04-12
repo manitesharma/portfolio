@@ -28,7 +28,6 @@
     animation-direction: alternate;
     animation-duration: 5s;
     transform-origin: center;
-	stroke-width:2;
 }
 @keyframes revolve{
     0%{transform: scale(0.1) rotateZ(0deg) translateX(10px);opacity: 0;}
