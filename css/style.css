@@ -7,8 +7,9 @@ body{
     background-color: #fafafa;
     overflow-x: hidden;
 }
-@import @import url('https://fonts.googleapis.com/css?family=Roboto:200,300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:200,300,400,500,700');
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
 /* media qury for desktop */
 
 .about , .custom-footer:focus {
@@ -65,36 +66,54 @@ body{
 .introduction-text{
     width: 80%;
     float: left;
-    margin: 10% 10%;
+    margin: 5% 10%;
     color: #000;
     text-align: center;
     color: #393E46;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 .introduction-h1{
     float: left;
     width: 100%;
     font-size: 100px;
     letter-spacing: 0.25em;
-    margin: 5% 0em;
+    margin: 0;
     text-transform:uppercase;
-    font-weight: 800;
+    font-weight: 700;
     text-shadow: 0px 2px 5px #0000;
     display: flex;
+    flex-flow: row;
     align-items: center;
-    justify-content: center;
+    justify-content : center;
+    font-family: 'Kalam', cursive;
+    margin-top: -0.2em;
+    filter: drop-shadow(6px 7px 0px #00f);
+    color: #f5bdff;
+    line-height: 0.8;
 }
-.introduction-h1 img{
-    margin-right: 0.2em;
-    width: 0.7em;
+.nam-ico{
+    width: 10em;
+    margin-top: 3%;
 }
 .introduction-p{
     float: left;
     font-weight: 400;
     width: 100%;
     font-size: 20px;
-    letter-spacing: 0.05em;
+    letter-spacing: 0em;
     line-height: 2;
     margin: 0.1em 0em;
+}
+.introduction-p.sub1{
+    font-size: 3em;
+    font-weight: 800;
+    margin-top: 0.5em;
+}
+.introduction-p.sub2{
+    max-width: 30em;
 }
 .social{
     float: left;
@@ -476,13 +495,17 @@ body{
 }
 .introduction-text{
     width: 100%;
-    margin: 60% auto 0%;
+    margin: 30% auto 0%;
 }
 .introduction-h1{
     width: 100%;
     font-size: 100px;
     letter-spacing: 0.25em;
     margin: 5% 0em;
+}
+.nam-ico{
+    width: 40%;
+    margin-top: 0%;
 }
 .introduction-p{
     width: 100%;
