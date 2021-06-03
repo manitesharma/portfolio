@@ -356,7 +356,9 @@ body{
 }
 .footer-content{
     margin: 1% auto;
-    width: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 .footer-content > p,a{
     float: left;
