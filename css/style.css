@@ -19,6 +19,15 @@ body{
 .hidesec{
     display: none;
 }
+.centred-width{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.centred-width-inside{
+    max-width: 1000px;
+}
 /* introduction section css starts here */
 .allnav{
     display: block;
@@ -173,14 +182,13 @@ body{
 /* about section css starts here */
 .sec-head{
     float: left;
-    text-align: left;
-    border-left: 500px solid #f2f2f2;
-    margin: 10% 0% 2%;
+    text-align: center;
+    margin: 0 0% 2%;
     padding: 0em 1em;
     font-size: 30px;
     font-weight: 800;
     color: #393e36;
-    letter-spacing: 0.2em;
+    letter-spacing: 0;
 }
 .contain{
     float: left;
@@ -274,6 +282,50 @@ body{
     color: #4c4c4c;
     font-family: 'Noto Sans', sans-serif;
 }
+/* article session goes here */
+.card.article-card{
+ transform-origin: center;
+}
+.card.article-card:hover .article-img{
+    transition: all 150ms;
+    transform: scale(1.05);
+
+}
+.article-img{
+    width: 100%;
+    height: 200px;
+    color: #0000;
+    background-color: #000;
+    background-size: 100%;
+    background-position: center;
+    border-radius: 12px;
+}
+.article-discription{
+    float: left;
+    width: 100%;
+}
+.article-head{
+    font-size: 1.4em;
+    margin-bottom: 0;
+    min-height: 2em;
+    display: flex;
+    align-items: center;
+}
+.article-disc{
+    font-size: 1em;
+    line-height: 1.5;
+    color: #5f5f5f;
+}
+.more-medium{
+    text-align: center;
+    width: 100%;
+    float: left;
+    margin: 0%;
+    color: #45a0f1;
+    padding: 1.5em 0em;
+}
+
+/* article css ends here */
 /* cousrses section css goes here */
 .courses{
     float: left;
@@ -634,6 +686,43 @@ body{
 .edu > p:nth-child(3){
     color: #0005;
     font-size: 0.95em;
+}
+/* css for article starts here */
+.article-img{
+    height: 500px;
+    color: #0000;
+    background-color: #000;
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 12px;
+}
+.article-discription{
+    float: left;
+    width: 100%;
+    font-size: 16px;
+}
+.article-head{
+    font-size: 4em;
+    text-align: left;
+    margin-bottom: 0;
+    min-height: 2em;
+    display: flex;
+    align-items: center;
+}
+.article-disc{
+    font-size: 1.4em;
+    text-align: left;
+    line-height: 1.5;
+    color: #5f5f5f;
+}
+.more-medium{
+    text-align: center;
+    width: 100%;
+    float: left;
+    margin: 0%;
+    color: #45a0f1;
+    padding: 1.5em 0em;
 }
 
 /* project css*/
