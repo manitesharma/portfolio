@@ -15,6 +15,7 @@ body{
 .about , .custom-footer:focus {
   outline: 0px dotted #212121;
   outline: 0px auto -webkit-focus-ring-color;
+  outline: none;
 }
 .hidesec{
     display: none;
